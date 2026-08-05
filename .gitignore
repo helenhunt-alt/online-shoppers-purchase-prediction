@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Local data and generated cache
+data/
+cache/
+
+# Keep only the final submission
+submissions/*.csv
+!submissions/submission_final.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and linters
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
